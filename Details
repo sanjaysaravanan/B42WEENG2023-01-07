@@ -1,0 +1,84 @@
+Topics:
+
+  HTML --> Hyper Text Mark Up Language
+            HTML
+  DOM --> Document Object Model
+  DOM structure -> skeleton of a webpage
+    HTML ultimate parent
+      | --> HEAD
+            | --> Title
+      | --> BODY
+            | --> H1 --> text content B39WEENG
+            | --> div
+                  | --> h2 ---> text content Home: 2022-09-04
+
+  body: browser parses all the content inside and displays it in the view area of a browser
+  head: 
+    meta: tells/describes/instructs behaviour about the web-page. 
+    title -> title for the page
+    link: link external doc/file to the html
+    script: link/attach JS codes
+
+  Tags: special ability accompanied by each tag to render content in the webpage
+
+    h1 --> has the ability to increase font-size and change font-weight
+      <h1> ---> opening tag
+        content ---> goes between opening & closing tag
+      </h1> ---> closing tag
+    i --> italics 
+    b ---> bold
+    strong --> bold
+  
+  Self Closing Tags:
+    <br /> ---> line break
+    <hr /> ---> horizontal line
+    <img />
+
+  attributes --> properties for a particular tag on how to render the content
+    self closing:
+      img ---> src & alt attributes are must
+    anchor ---> href, 
+    common attributes used in html --> title, style, id, class
+
+  Few Basic Tags in HTML:
+    heading -> h1, h2, h3, h4, h5, h6
+    anchor -> a with href and target attribute
+
+    div --> occupies the enitire horizontal width/space
+      occupying the entire width of the parent is called --> block level element
+    span --> occupies only the horizontal width/space needed for it
+      Occpying only the width that a children need is called --> inline element
+
+    block tags/elements:
+      occupies the enitire horizontal width/space and always starts in newline
+        Examples: div, p, heading
+    
+    inline tags/elements:
+      occupies only the horizontal width/space needed for its children
+        Example: span, i, b, img
+
+    list --> Listing item 
+      ol --> ordered list & type attribute
+      ul --> unordered list no type attribute need to use style
+
+    input element
+
+    color: 0,1,2,3,4,5,6,7,9,A,B,C,D,E,F
+
+    
+
+  
+  Next Session:
+    audio
+    video
+    iframe
+    canvas
+    
+    Table
+    forms:
+      form submit
+
+    basic styling, CSS ---> Cascading Style Sheet --> beautification, cosmetic of webpage
+
+    basically a style only under certain keys with certain values
+      key: value pair ( set keys already defined for css with certains values )
